@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".FindFriendsActivity">
+
+    <include
+        android:id="@+id/find_friends_appbar_layout"
+        layout="@layout/app_bar_layout">
+    </include>
+
+    <RelativeLayout
+        android:id="@+id/mylayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/find_friends_appbar_layout">
+
+        <TextView
+            android:id="@+id/simpleTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:text="Search for the People and Friends"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true" />
+
+        <EditText
+            android:id="@+id/search_box_input"
+            android:layout_width="259dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simpleTextID"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/inputs"
+            android:ems="10"
+            android:hint="search here..."
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textColorHint="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <ImageButton
+            android:id="@+id/search_people_friends_button"
+            android:layout_width="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="40dp"
+            android:layout_below="@+id/simpleTextID"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/search_box_input"
+            android:background="@drawable/inputs"
+            android:src="@drawable/seaarch"
+            android:padding="1dp"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/search_box_input" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mylayout"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
