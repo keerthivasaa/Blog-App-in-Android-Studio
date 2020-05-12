@@ -7,8 +7,8 @@
   
 
 # Nickname and Uses
-  The nickname of this application is VAG
-  VAG  enables you to reach the billions of people that use the Internet.
+  The nickname of this application is VAG. 
+  This application enables you to reach the billions of people that use the Internet.
   VAG can help you promote yourself or your business. 
   VAG works as a method for attracting an audience because it provides something of value to them before asking for anything in return.
 
@@ -18,10 +18,10 @@
  
 # Credits
   k3vasan_official (FullStack developer)
-  contact:
+  contact:-
   Insta:k3vasan_official
 
   Prasath Niraj (drawable/images)
-  contact:
+  contact:-
   Insta:prasathniraj
  
