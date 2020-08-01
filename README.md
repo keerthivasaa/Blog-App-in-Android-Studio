@@ -1,4 +1,7 @@
 # Blog-App
+
+<img src="https://user-images.githubusercontent.com/47691119/89096929-0952e880-d3f8-11ea-8d6c-52b68e8c8064.jpg">
+
   This application brings you closer to the people and things you love. 
   Connect with peoples, share what you’re up to, or see what's new from others all over the world. 
   Explore our community where you can feel free to be yourself and share everything from your daily moments to life's highlights.
